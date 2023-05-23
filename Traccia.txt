@@ -1,0 +1,25 @@
+Considerando la classe Arancia analizzata a lezione come superclasse, progettare e
+realizzare la sottoclasse SuccoArancia con attributi confezione (vetro, carta, plastica, ecc.),
+colore, calorie100ml, prezzo, e con metodi, oltre a quelli standard:
+• modificaPrezzo che aumenta il prezzo del succo del 15% se la confezione è in vetro,
+lo diminuisce di 0,3 euro se è in plastica e lo lascia invariato se è in carta;
+• determinaIVA che calcola l'IVA in funzione del prezzo. Se è maggiore di 2 euro, l'IVA
+è pari al 10% del prezzo; se è compreso tra 2 e 1 euro, l'IVA è pari al 4% del prezzo;
+se è minore di 1 euro, il succo è esente da IVA;
+• determinaImprontaEcologica che calcola l'impronta ecologica del succo in funzione
+del tipo di coltivazione delle arance e della distanza percorsa per i vari trasporti
+(delle arance, del succo, ecc.). Se la coltivazione è biologica e il prodotto a km 0,
+l'impronta è bassa; se è vera solo una delle due condizioni precedenti, è media; se
+nessuna delle due, è alta.
+Il main deve soddisfare le seguenti richieste:
+1. creare un oggetto di classe SuccoArancia col costruttore non parametrizzato;
+2. visualizzare gli attributi dell'oggetto di classe SuccoArancia (compresi quelli
+ereditati);
+3. modificare il prezzo del succo;
+4. determinare l'IVA del succo;
+5. determinare l'impronta ecologica del succo;
+6. creare un secondo oggetto di classe SuccoArancia col costruttore parametrizzato;
+7. determinare quale dei due succhi ha la minore impronta ecologica.
+Al termine dell'esercitazione, vanno consegnati cinque file:
+1. codice Java della classe SuccoArancia;
+2. codice Java del main.
